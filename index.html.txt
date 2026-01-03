@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Anime Portrait | Turn Your Photo into Art</title>
+    
+    <!-- Tailwind CSS (Styling) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Gumroad Overlay Script -->
+    <script src="https://gumroad.com/js/gumroad.js"></script>
+
+    <!-- Font Awesome (Icons) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <style>
+        /* Custom Pink Accents to match Gumroad */
+        .btn-primary {
+            background-color: #ff90e8; /* Gumroad Pink */
+            color: #000;
+            transition: all 0.3s ease;
+        }
+        .btn-primary:hover {
+            background-color: #f074d6;
+            transform: translateY(-2px);
+        }
+        body {
+            background-color: #111; /* Dark Theme */
+            color: #eee;
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- NAVIGATION -->
+    <nav class="flex items-center justify-between px-6 py-4 max-w-7xl mx-auto">
+        <div class="text-2xl font-bold tracking-tighter text-white">
+            <i class="fa-solid fa-paintbrush text-pink-400"></i> AnimeArt<span class="text-pink-400">.Studio</span>
+        </div>
+        <div class="hidden md:flex space-x-8 text-gray-300 font-medium">
+            <a href="#how-it-works" class="hover:text-pink-400 transition">How it Works</a>
+            <a href="#portfolio" class="hover:text-pink-400 transition">Gallery</a>
+            <a href="#reviews" class="hover:text-pink-400 transition">Reviews</a>
+        </div>
+        <a href="https://artrush.gumroad.com/l/zdtkqy" class="gumroad-button-embed btn-primary px-6 py-2 rounded-full font-bold">
+            Order Now
+        </a>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <header class="max-w-7xl mx-auto px-6 py-20 md:py-32 flex flex-col-reverse md:flex-row items-center gap-12">
+        <div class="md:w-1/2 text-center md:text-left">
+            <span class="text-pink-400 font-bold tracking-widest uppercase text-sm mb-2 block">Best Gift Idea 2024</span>
+            <h1 class="text-5xl md:text-7xl font-extrabold text-white leading-tight mb-6">
+                Turn Your Photo Into <br>
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-purple-500">Anime Art</span>
+            </h1>
+            <p class="text-gray-400 text-lg mb-8 leading-relaxed max-w-lg mx-auto md:mx-0">
+                Get a personalized high-quality anime portrait. The perfect unique gift for couples, friends, or your new profile picture.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+                <a href="https://gum.co/cmjyrze54000804l9bgylfa1q" class="gumroad-button-embed btn-primary px-8 py-4 rounded-lg font-bold text-lg text-center">
+                    <i class="fa-solid fa-cart-shopping mr-2"></i> Commission Now
+                </a>
+                <a href="#portfolio" class="px-8 py-4 rounded-lg font-bold text-lg text-white border border-gray-700 hover:border-pink-400 hover:text-pink-400 transition text-center">
+                    View Samples
+                </a>
+            </div>
+            <p class="mt-4 text-sm text-gray-500">
+                <i class="fa-solid fa-bolt text-yellow-400"></i> Fast turnaround (3-5 days)
+            </p>
+        </div>
+        
+        <!-- Hero Image (Replace with your Art) -->
+        <div class="md:w-1/2 relative">
+            <div class="absolute -inset-1 bg-gradient-to-r from-pink-600 to-purple-600 rounded-2xl blur opacity-30"></div>
+            <img src="https://public-files.gumroad.com/tauodwbz1ibmr3r7u3rtwvmthxpk?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Anime Art Example" class="relative rounded-2xl shadow-2xl border border-gray-800 w-full object-cover h-[500px]">
+        </div>
+    </header>
+
+    <!-- HOW IT WORKS -->
+    <section id="how-it-works" class="py-20 bg-gray-900">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-5xl font-bold text-white mb-4">How It Works</h2>
+                <p class="text-gray-400">Get your custom artwork in 3 simple steps</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Step 1 -->
+                <div class="bg-gray-800 p-8 rounded-2xl border border-gray-700 hover:border-pink-500 transition duration-300">
+                    <div class="w-12 h-12 bg-pink-500/20 text-pink-400 rounded-full flex items-center justify-center text-xl font-bold mb-6">1</div>
+                    <h3 class="text-xl font-bold text-white mb-3">Place Your Order</h3>
+                    <p class="text-gray-400">Click the button, choose your package, and complete the payment securely via Gumroad.</p>
+                </div>
+                <!-- Step 2 -->
+                <div class="bg-gray-800 p-8 rounded-2xl border border-gray-700 hover:border-pink-500 transition duration-300">
+                    <div class="w-12 h-12 bg-pink-500/20 text-pink-400 rounded-full flex items-center justify-center text-xl font-bold mb-6">2</div>
+                    <h3 class="text-xl font-bold text-white mb-3">Upload Photos</h3>
+                    <p class="text-gray-400">You'll receive a receipt with a link to upload your reference photos and outfit requests.</p>
+                </div>
+                <!-- Step 3 -->
+                <div class="bg-gray-800 p-8 rounded-2xl border border-gray-700 hover:border-pink-500 transition duration-300">
+                    <div class="w-12 h-12 bg-pink-500/20 text-pink-400 rounded-full flex items-center justify-center text-xl font-bold mb-6">3</div>
+                    <h3 class="text-xl font-bold text-white mb-3">Receive Art</h3>
+                    <p class="text-gray-400">I will send you a sketch for approval, then the final HD artwork via email!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO GRID -->
+    <section id="portfolio" class="py-20">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-3xl md:text-5xl font-bold text-white mb-12 text-center">Recent Commissions</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <!-- Replace these with your actual artwork images -->
+                <img src="https://images.unsplash.com/photo-1618331835717-801e976710b2?auto=format&fit=crop&w=600&q=80" class="rounded-xl w-full h-80 object-cover hover:opacity-90 transition">
+                <img src="https://images.unsplash.com/photo-1635805737707-575885ab0820?auto=format&fit=crop&w=600&q=80" class="rounded-xl w-full h-80 object-cover hover:opacity-90 transition">
+                <img src="https://images.unsplash.com/photo-1560972550-aba3456b5564?auto=format&fit=crop&w=600&q=80" class="rounded-xl w-full h-80 object-cover hover:opacity-90 transition">
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="reviews" class="py-20 bg-gray-900">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold text-white mb-12">What Clients Say</h2>
+            <div class="bg-gray-800 p-8 rounded-2xl shadow-lg border border-gray-700">
+                <div class="text-yellow-400 text-xl mb-4">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+                <p class="text-gray-300 text-lg italic mb-6">"Absolutely loved the result! The artist captured my boyfriend's expression perfectly in anime style. Best anniversary gift ever!"</p>
+                <div class="font-bold text-white">- Sarah Jenkins</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA FOOTER -->
+    <footer class="py-20 text-center">
+        <h2 class="text-4xl font-bold text-white mb-6">Ready to get yours?</h2>
+        <p class="text-gray-400 mb-8">Slots are limited. Secure your commission today.</p>
+        <a href="https://gum.co/cmjyrze54000804l9bgylfa1q" class="gumroad-button-embed btn-primary px-10 py-5 rounded-full font-bold text-xl inline-block">
+            Start Your Order
+        </a>
+        <p class="mt-12 text-gray-600 text-sm">
+            &copy; © 2026 ArtRush. All rights reserved. Digital illustration service.
+        </p>
+    </footer>
+
+</body>
+</html>
